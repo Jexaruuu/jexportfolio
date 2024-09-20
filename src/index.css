@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('./assets/img/black.jpg') no-repeat center center fixed; /* Replace with the path to your image */
+  background-size: cover;
+}
+
+code {
+  font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,100 @@
+.navigation {
+  margin-left: 18%;
+  margin-top: 38px;
+}
+.navigation img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%; 
+  border: 1px solid #ffffff; 
+  cursor: pointer; 
+  transition: transform 0.6s, box-shadow 0.6s; 
+  margin-left: -142px;
+  margin-top: 65px; 
+}
+
+.navigation img:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+.navigation h1 {
+  margin-top: -125px;
+  margin-left: 40px;
+  font-family: 'SF Pro Display'; /* Added generic fallback font */
+  font-size: 30px;
+  color: #ffffff;
+}
+.navigation p {
+  margin-top: -15px;
+  margin-left: 40px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.navlinks {
+  margin-left: 61.3%;
+  margin-top: -131px;
+}
+.navlinks ul li 
+{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+.navlinks ul li a
+{
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 20px;
+  font-family: 'SF Pro Display'; /* Added generic fallback font */
+  font-weight: 600;
+}
+.navlinks ul li::after
+{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: #ffffff;
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	transition: 0.5s;
+}
+.navlinks ul li:hover::after
+{
+    width: 100%;
+}
+
+.navbutton {
+  margin-left: 78%;
+  margin-top: -48px;
+}
+.navbutton button {
+  font-family: 'SF Pro Display'; /* Added generic fallback font */
+  font-weight: 600;
+  background: none;
+  border: 1px solid #ffffff;
+  width: 200px;
+  height: 37px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: .6s;
+  font-size: 20px;
+  line-height: 15px;
+}
+.navbutton button:hover {
+  color: #ffffff;
+  background-color: #2c2c2c;
+}
+.scroll-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 100%;
+  background-color: rgb(255, 255, 255); /* Adjust color as needed */
+  z-index: 9999; /* Ensure it is above other content */
+  pointer-events: none; /* Ensure it doesn't block interactions */
+}

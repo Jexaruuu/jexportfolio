@@ -1,0 +1,24 @@
+/* Card.css */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-description {
+    padding: 16px;
+  }
+  
+  .card-description p {
+    margin: 0;
+    color: #333;
+  }
+  

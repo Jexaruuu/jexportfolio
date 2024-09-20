@@ -1,0 +1,86 @@
+.footer{
+  margin-top: 260px;
+  margin-left: 192px;
+  position: relative;
+}
+.email h1 {
+  font-size: 50px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: 'SF Pro Display'; /* Added generic fallback font */
+  margin-top: 20px; /* Adjust margin to fit your design */
+  margin-left: 455px;
+}
+.email p {
+  font-size: 20px;
+  font-family: 'SF Pro Display'; /* Added generic fallback font */
+  color: #ffffff;
+  margin-top: -30px;
+  margin-left: 665px;
+}
+.insta{
+  margin-top: 150px;
+  margin-right: 215px;
+  position: relative;
+  text-align: left; /* Aligns text to the right */
+}
+
+.insta h1 {
+  font-size: 70px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: 'SF Pro Display'; /* Added generic fallback font */
+  margin-top: 0; /* Adjust margin to fit your design */
+  font-weight: 500;
+}
+
+.insta p {
+  font-size: 20px;
+  font-family: 'SF Pro Display'; /* Added generic fallback font */
+  color: #ffffff;
+  margin-top: -30px; /* Adjust margin to fit your design */
+}
+.facebook{
+  margin-top: -145px;
+  margin-right: 175px;
+  position: relative;
+  text-align: center; /* Aligns text to the right */
+}
+
+.facebook h1 {
+  font-size: 70px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: 'SF Pro Display'; /* Added generic fallback font */
+  margin-top: -20px; /* Adjust margin to fit your design */
+  font-weight: 500;
+}
+
+.facebook p {
+  font-size: 20px;
+  font-family: 'SF Pro Display'; /* Added generic fallback font */
+  color: #ffffff;
+  margin-top: -30px; /* Adjust margin to fit your design */
+}
+.github{
+  margin-top: -145px;
+  margin-right: 215px;
+  position: relative;
+  text-align: right; /* Aligns text to the right */
+}
+
+.github h1 {
+  font-size: 70px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: 'SF Pro Display'; /* Added generic fallback font */
+  margin-top: -20px; /* Adjust margin to fit your design */
+  font-weight: 500;
+}
+
+.github p {
+  font-size: 20px;
+  font-family: 'SF Pro Display'; /* Added generic fallback font */
+  color: #ffffff;
+  margin-top: -30px; /* Adjust margin to fit your design */
+}

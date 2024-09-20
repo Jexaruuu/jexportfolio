@@ -1,0 +1,212 @@
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  max-width: 600px;
+  margin-top: 150px;
+  margin-left: 210px;
+}
+.h1-style-7 {
+  font-size: 6rem;
+  color: #fff;
+  margin-top: 325px;
+  margin-left:  40px;
+  transform: rotate(-90deg); 
+  transform-origin: left bottom;
+  white-space: nowrap; 
+  display: inline-block; 
+}
+.h1-style-8 {
+  font-size: 6rem;
+  -webkit-text-stroke: 0.5px; 
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  color: transparent; 
+  margin-top: -210px;
+  margin-left: 35px;
+  transform: rotate(-90deg); 
+  transform-origin: left bottom; 
+  white-space: nowrap;
+  display: inline-block; 
+  cursor: pointer;
+}
+.h1-style-8:hover {
+  background: #acacac; 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  color: transparent; 
+  transition: 0.3s;
+}
+
+.h1-style-9 {
+  font-size: 6rem;
+  -webkit-text-stroke: 0.5px; 
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  color: transparent; 
+  transform: rotate(-90deg); 
+  transform-origin: left bottom; 
+  white-space: nowrap; 
+  display: inline-block;
+  margin-top: -210px;
+  margin-left: 150px;
+  cursor: pointer;
+}
+.h1-style-9:hover {
+  background: #ff6600;
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  color: transparent;
+  transition: 0.3s;
+}
+.h1-style-10 {
+  font-size: 6rem;
+  -webkit-text-stroke: 0.5px; 
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  color: transparent; 
+  transform: rotate(-90deg); 
+  transform-origin: left bottom; 
+  white-space: nowrap; 
+  margin-top: -210px;
+  margin-left: 230px;
+cursor: pointer;
+}
+.h1-style-10:hover {
+  background: #0066ff; 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  color: transparent; 
+  transition: 0.3s;
+}
+.h1-style-11 {
+  font-size: 2rem;
+  color: #fff;
+  margin-top: 200px;
+  margin-left: 2125px;
+  transform-origin: left bottom;
+  white-space: nowrap; 
+  display: inline-block; 
+  transition: transform 0.5s ease; /* Smooth transition */
+  cursor: pointer;
+}
+
+.h1-style-11:hover {
+  transform: translateY(15px); /* Moves the text down by 20px on hover */
+}
+
+.h1-style-12{
+  font-size: 2rem;
+  color: transparent;
+  margin-top: -85px;
+  margin-left: 2125px;
+  transform-origin: left bottom;
+  white-space: nowrap; 
+  display: inline-block; 
+  -webkit-text-stroke: 0.5px; 
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+.h1-style-13{
+  font-size: 2rem;
+  color: transparent;
+  margin-top: -90px;
+  margin-left: 2125px;
+  transform-origin: left bottom;
+  white-space: nowrap; 
+  display: inline-block; 
+  -webkit-text-stroke: 0.5px; 
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+.h1-style-14{
+  font-size: 2rem;
+  color: transparent;
+  margin-top: -90px;
+  margin-left: 2125px;
+  transform-origin: left bottom;
+  white-space: nowrap; 
+  display: inline-block; 
+  -webkit-text-stroke: 0.5px; 
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+.h1-style-15{
+  font-size: 2rem;
+  color: transparent;
+  margin-top: -90px;
+  margin-left: 2125px;
+  transform-origin: left bottom;
+  white-space: nowrap; 
+  display: inline-block; 
+  -webkit-text-stroke: 0.5px; 
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+.h1-style-16{
+  font-size: 2rem;
+  color: transparent;
+  margin-top: -90px;
+  margin-left: 2125px;
+  transform-origin: left bottom;
+  white-space: nowrap; 
+  display: inline-block; 
+  -webkit-text-stroke: 0.5px; 
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.figma {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  padding: 20px;        
+  margin-top: -765px;
+  margin-left:  350px;
+}
+
+
+.figma > img:first-child {
+  width: 450px;    
+  height: 450px;              
+  margin-bottom: 20px;  
+}
+
+
+.html {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;   
+  margin-top: -440px;
+  margin-left:  800px;
+}
+
+
+.html > img:first-child {
+  width: 400px;    
+  height: 400px;   
+}
+
+
+.css {
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  margin-top: -400px;
+  margin-left:  830px;
+}
+
+/* Styles for the CSS logo */
+.css > img {
+  width: 400px;    
+  height: 400px;   
+}
+
+.goal {
+  margin-top: -33px;
+}
+.goal p {
+  font-size: 25px;
+  font-family: 'SF Pro Display';
+  color: #ffffff;
+  margin-top: -30px;
+  margin-left: -285px;
+  text-align: left;
+  line-height: 30px;
+}
+

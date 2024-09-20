@@ -1,0 +1,139 @@
+
+.introduction {
+  margin-top: 245px;
+  margin-left: 210px;
+  position: relative;
+}
+.introduction h1 {
+  font-size: 45px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: 'SF Pro Display';
+  margin-top: -20px;
+}
+.introduction h1::after {
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #ffffff;
+  position: absolute;
+  left: 0;
+  bottom: 75%;
+  transition: 0.5s;
+}
+.introduction h1:hover::after {
+  width: 32%;
+}
+
+.introduction p {
+  font-size: 32px;
+  font-family: 'SF Pro Display';
+  color: #ffffff;
+  margin-top: -30px;
+}
+.introduction span {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.socialmediabuttons ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+  margin-top: -40px;
+  margin-left: -41%;
+}
+.socialmediabuttons ul li {
+  list-style: none;
+  margin: 0 5.5px;
+}
+.socialmediabuttons ul li .bx {
+  font-size: 30px;
+  line-height: 40px;
+  transition: .6s;
+  color: #ffffff;
+}
+.socialmediabuttons ul li a {
+  position: relative;
+  display: block;
+  width: 41px;
+  height: 41px;
+  border: 1px solid #ffffff;
+  background-color: #000000;
+  text-align: center;
+  transition: .6s;
+}
+.socialmediabuttons ul li a:hover {
+  transform: translate(0, -10px);
+}
+.socialmediabuttons ul li:nth-child(1) a {
+  background: #1d65f6;
+}
+.socialmediabuttons ul li:nth-child(2) a {
+  background: #ff0000;
+}
+.socialmediabuttons ul li:nth-child(3) a {
+  background: #5e9bc7;
+}
+.socialmediabuttons ul li:nth-child(4) a {
+  background: #0d58c5;
+}
+.socialmediabuttons ul li:nth-child(5) a {
+  background: #ce1aa3;
+}
+.socialmediabuttons ul li:nth-child(6) a {
+  background: #1dacf7;
+}
+
+.undersocmedbuttons {
+  margin-left: -13px;
+  margin-top: 100px;
+}
+.undersocmedbuttons button {
+  font-family: 'SF Pro Display';
+  font-size: 16px;
+  background: none;
+  border: 1px solid #ffffff;
+  width: 171px;
+  height: 52px;
+  margin: 0 5px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: .6s;
+  position: relative;
+}
+.undersocmedbuttons a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.undersocmedbuttons button:nth-child(1) {
+  background-color: none;
+  border: 1px solid ffffff;
+}
+.undersocmedbuttons button:nth-child(1):hover {
+  background-color: #2c2c2c;
+  border: 1px solid #ffffff;
+}
+.undersocmedbuttons button:nth-child(2) {
+  background-color: none;
+  border: 1px solid #ffffff;
+}
+.undersocmedbuttons button:nth-child(2):hover {
+  background-color: #2c2c2c;
+  border: 1px solid #ffffff;
+}
+.headersymbols {
+  margin-top: -370px;
+  margin-left: 320px;
+}
+.headeravatar {
+  margin-top: -40%;
+  margin-left: 710px;
+}
+.headeravatar img {
+  width: 450px;
+}
