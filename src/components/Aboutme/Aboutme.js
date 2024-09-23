@@ -59,7 +59,7 @@ function Aboutme() {
         className="projects"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 20 }}
-        transition={{ duration: 0.5, delay: 0.4 }} // Delay for projects section
+        transition={{ duration: 0.5, delay: 0.4 }} 
       >
         <h1>I CREATE</h1>
         <p>I design attractive landing pages to make great first impressions online. I also help with design tasks, making sure websites and apps are user-friendly and visually appealing. Using Webflow, I build and customize websites to look good and work well on all devices. I’m always excited to learn and take on new challenges in the tech world.</p>
@@ -78,7 +78,7 @@ function Aboutme() {
               className={`project-box ${project.className}`}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 20 }}
-              transition={{ duration: 0.5, delay: 0.6 + index * 0.1 }} // Staggered delay for each project box
+              transition={{ duration: 0.5, delay: 0.6 + index * 0.1 }} 
             >
               <h1 className={`project-title ${project.className}-title`}>{project.title}</h1>
               <p className={`project-description ${project.className}-description`}>{project.description}</p>
